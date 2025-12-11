@@ -20,66 +20,108 @@ export default function Home() {
       </div>
 
       <div className="section">
+        <h2>🚀 Full Demo Application</h2>
+        <Link href="/demo" className="nav-card" style={{
+          background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+          color: 'white',
+          border: 'none',
+          marginBottom: '2rem'
+        }}>
+          <div>
+            <h3 style={{ color: 'white' }}>
+              Complete Demo App
+              <span className="badge" style={{ background: 'rgba(255,255,255,0.3)', color: 'white', marginLeft: '1rem' }}>New!</span>
+            </h3>
+            <p style={{ color: 'rgba(255,255,255,0.9)' }}>
+              Comprehensive application showcasing Server, Client, and Hybrid components with parallel, sequential, and streaming data fetching
+            </p>
+          </div>
+        </Link>
+
         <h2>📚 Examples</h2>
         <div className="nav-grid">
           <Link href="/examples/server-components" className="nav-card">
-            <h3>
-              Server Components
-              <span className="badge server">Server</span>
-            </h3>
-            <p>
-              Learn about async components, data fetching, and zero-bundle size benefits
-            </p>
+            <div>
+              <h3>
+                Server Components
+                <span className="badge server">Server</span>
+              </h3>
+              <p>
+                Learn about async components, data fetching, and zero-bundle size benefits
+              </p>
+            </div>
           </Link>
 
           <Link href="/examples/client-components" className="nav-card">
-            <h3>
-              Client Components
-              <span className="badge client">Client</span>
-            </h3>
-            <p>
-              Explore interactivity, hooks, browser APIs, and event handlers
-            </p>
+            <div>
+              <h3>
+                Client Components
+                <span className="badge client">Client</span>
+              </h3>
+              <p>
+                Explore interactivity, hooks, browser APIs, and event handlers
+              </p>
+            </div>
           </Link>
 
           <Link href="/examples/hybrid-composition" className="nav-card">
-            <h3>
-              Hybrid Composition
-              <span className="badge hybrid">Hybrid</span>
-            </h3>
-            <p>
-              Combine server and client components for optimal performance
-            </p>
+            <div>
+              <h3>
+                Hybrid Composition
+                <span className="badge hybrid">Hybrid</span>
+              </h3>
+              <p>
+                Combine server and client components for optimal performance
+              </p>
+            </div>
           </Link>
 
           <Link href="/examples/data-fetching" className="nav-card">
-            <h3>
-              Data Fetching Patterns
-              <span className="badge server">Server</span>
-            </h3>
-            <p>
-              Parallel fetching, streaming, and advanced patterns
-            </p>
+            <div>
+              <h3>
+                Data Fetching Patterns
+                <span className="badge server">Server</span>
+              </h3>
+              <p>
+                Parallel fetching, streaming, and advanced patterns
+              </p>
+            </div>
           </Link>
 
           <Link href="/examples/pitfalls" className="nav-card">
-            <h3>
-              Common Pitfalls
-              <span className="badge warning">Warning</span>
-            </h3>
-            <p>
-              Learn what NOT to do and how to fix common mistakes
-            </p>
+            <div>
+              <h3>
+                Common Pitfalls
+                <span className="badge warning">Warning</span>
+              </h3>
+              <p>
+                Learn what NOT to do and how to fix common mistakes
+              </p>
+            </div>
           </Link>
 
           <Link href="/examples/best-practices" className="nav-card">
-            <h3>
-              Best Practices
-              <span className="badge best">Best</span>
-            </h3>
-            <p>
-              Proven patterns for building scalable RSC applications
-            </p>
+            <div>
+              <h3>
+                Best Practices
+                <span className="badge best">Best</span>
+              </h3>
+              <p>
+                Proven patterns for building scalable RSC applications
+              </p>
+            </div>
+          </Link>
+
+          <Link href="/examples/routing-files" className="nav-card">
+            <div>
+              <h3>
+                Next.js Routing Files
+                <span className="badge" style={{ background: '#10b981', color: 'white' }}>Practice</span>
+              </h3>
+              <p>
+                Practice with all 7 Next.js routing files: layout, page, loading, error, not-found, template, and route
+              </p>
+            </div>
           </Link>
         </div>
       </div>
