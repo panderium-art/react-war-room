@@ -1,0 +1,5 @@
+# macOS system files
+.DS_Store
+
+# Personal documents
+RESUME.md
